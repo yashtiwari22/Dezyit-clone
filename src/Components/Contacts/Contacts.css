@@ -1,0 +1,38 @@
+.contacts{
+    display:flex;
+    flex-direction: row;
+    width:100vw;
+    
+    height:80vh;
+    background-color:#302b70;
+}
+.textfield{
+    margin-left: 300px;
+    display:flex;
+    flex-direction: column;
+}
+.about{
+    display:flex;
+    
+    flex-direction: column;
+}
+.Buttons{
+    
+    display: flex;
+    align-items: center;
+}
+.p{
+    color:white;
+    margin:20px;
+    font-size:0.7rem;
+}
+.contactarea{
+    margin-right: 250px;
+}
+.a-d{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.icons{
+    margin-left: 10px;
+}

@@ -1,0 +1,101 @@
+.main2{
+    background: url(https://static.wixstatic.com/media/ec9816_6cad91bd1e0e48f19fb000611fe63bb7~mv2.png/v1/fill/w_1210,h_768,al_c,q_95/ec9816_6cad91bd1e0e48f19fb000611fe63bb7~mv2.webp);
+    display:flex;
+    flex-direction: column;
+    background-size: 100% 100%;
+    height:1000px;
+    width:100vw;
+}
+.top{
+    margin-left: 400px;
+    width:700px;
+    text-align: center;
+}
+.animations1{
+    margin-top: 10px;
+    width:350px;
+    height:400px;
+    margin-right: 0px;
+    padding:0;
+    background-image: url(https://static.wixstatic.com/media/ec9816_84599e042dc34d3a9b819b453f67aad5~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-Right4_edi.webp);
+    background-size: cover;
+    animation: slider1 10s infinite linear;
+}
+@keyframes slider1 {
+    25%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_84599e042dc34d3a9b819b453f67aad5~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-Right4_edi.webp);
+    }
+    50%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_85ec9845c5754d0b9fa317d89078fa77~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-Right3_edi.webp);
+    }
+    75%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_e2aed491f98e496194ae39a296dfecd1~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-Right1_edi.webp);
+    }
+    100%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_dd136736699b44c8ab0b11a72f01b06d~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-Right2_edi.webp);
+    }
+}
+.animations2{
+    margin-top: 10px;
+    height:400px;
+    width:350px;
+    margin-left:0px;
+    padding:0;
+    background-image: url(https://static.wixstatic.com/media/ec9816_2531c0fea4cd4527aa79c81270c48597~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-%2520Left2_e.webp);
+    background-size: cover;
+    animation: slider2 10s infinite linear;
+}
+@keyframes slider2 {
+    25%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_3ebb0016a042454381fa1b369f3b0aeb~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%20Thinking%20Sprint%20-%20Left1_edited_pn.webp);
+    }
+    50%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_2531c0fea4cd4527aa79c81270c48597~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-%2520Left2_e.webp);
+    }
+    75%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_ebaf6e4d2b5e448ca20743a0c76f3407~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-%2520Left3_e.webp);
+    }
+    100%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_5d9d81abe7b44dfbbc810576cb59d568~mv2.png/v1/fill/w_410,h_496,al_c,q_95/Design%2520Thinking%2520Sprint%2520-%2520Left4_e.webp);
+    }
+    
+    
+}
+.animation2{
+    margin-top: 0px;
+    margin-left:0px;
+    width:340px;
+    margin-right:0px;
+    height:550px;
+    padding:0;
+    background-image: url(https://static.wixstatic.com/media/ec9816_dfffabcb5a6644bea398181474fce65b~mv2.png/v1/fill/w_350,h_563,al_c,q_95/Design%20Thinking%20Sprint%20-%20Centre1.webp);
+    background-size: cover;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider {
+    25%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_dfffabcb5a6644bea398181474fce65b~mv2.png/v1/fill/w_350,h_563,al_c,q_95/Design%20Thinking%20Sprint%20-%20Centre1.webp);
+    }
+    50%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_6b99a07b335a4c11822c71ab4a70a6ea~mv2.png/v1/fill/w_350,h_563,al_c,q_95/DesignSprint-Prototype.webp);
+    }
+    75%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_58d376c7bae642ff8c9bc2d22895f107~mv2.png/v1/fill/w_350,h_563,al_c,q_95/Design%20Thinking%20Sprint%20-%20Centre3.webp);
+    }
+    100%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_ae5fd32a575b4a3db1445d009625957f~mv2.png/v1/fill/w_350,h_563,al_c,q_95/Design%20Thinking%20Sprint%20-%20Centre4.webp);
+    }
+}
+.between{
+    margin-left: 250px;
+}
+.below{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

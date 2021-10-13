@@ -1,0 +1,34 @@
+.main3
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100vw;
+}
+.Design2 {
+    display:flex;
+    flex-direction: row;
+}
+.Design3{
+    display:flex;
+    flex-direction: row;
+}
+.Design4{
+    display: flex;
+    flex-direction: row;
+}
+.image1{
+    height:400px;
+    width:550px;
+}
+.image2{
+    height:400px;
+    width:550px;
+}
+.image3{
+    height:400px;
+    width:550px;
+}
+.image{
+    margin-top: 40px;
+}

@@ -1,0 +1,111 @@
+.home{
+    height:100vh;
+}
+img{
+    height:40px;
+    margin: 15px;
+    margin-left:40px;
+}
+.header{
+    
+    background-color: #302b70;
+    width:100%;
+}
+.header-int{
+    width:auto;
+    display: flex;
+    align-items: center;
+}
+.header-img{
+    margin-left: 250px;
+}
+.header-content{
+    margin-left:270px;
+}
+li{
+    list-style-type: none;
+    margin:15px;
+    padding:15px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color:white;
+}
+ul{
+    display: flex;
+}
+.main{
+    background-image: url(https://static.wixstatic.com/media/ec9816_2eb87f9f47224104b16ec5e3cc468f59~mv2.png/v1/fill/w_1366,h_532,al_c,q_95/ec9816_2eb87f9f47224104b16ec5e3cc468f59~mv2.webp);
+    display:flex;
+    height:80vh;
+    background-size: 100% 100%;
+    
+}
+.right{
+    margin-right: 250px;
+}
+.left{
+    margin-left: 340px;
+}
+.animate{
+    margin-top: 50px;
+    height:570px;
+    width: 350px;
+    background-image: url(https://static.wixstatic.com/media/ec9816_a40cfaac07e64e4daca030c6f642cac2~mv2.png/v1/fill/w_448,h_721,al_c,q_95/DezyIt-Home-Mockup.webp);
+    background-size: cover;
+    animation: slide 10s infinite linear;
+   
+        
+    
+}
+@keyframes slide {
+    25%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_a40cfaac07e64e4daca030c6f642cac2~mv2.png/v1/fill/w_448,h_721,al_c,q_95/DezyIt-Home-Mockup.webp);
+    }
+    50%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_58d376c7bae642ff8c9bc2d22895f107~mv2.png/v1/fill/w_448,h_721,al_c,q_95/Design%20Thinking%20Sprint%20-%20Centre3.webp);
+    }
+    
+    75%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_7282ed9a7dae44e7b74f0e13bc081459~mv2.png/v1/fill/w_448,h_721,al_c,q_95/Login-DezyIt.webp);
+    }
+    100%{
+        background-image: url(https://static.wixstatic.com/media/ec9816_f3592d03a18e4224bb58501659e2a8ea~mv2.png/v1/fill/w_448,h_721,al_c,q_95/Useful%20Tips-Dezy%20It.webp);
+    }
+
+}
+.buttons{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Design{
+    display:flex;
+    height:80vh;
+    
+}
+.img2{
+    height:400px;
+    width:550px;
+}
+.img{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.h-p{
+    margin-top: 40px;
+    height:400px;
+    width:400px;
+}
+@media screen and(max-width:480px){
+    .main{
+        display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:400px;
+    width:100%;
+}
+h1{
+    font-size: 2rem;
+}
+}
